@@ -1,23 +1,12 @@
-import logo from './logo.svg';
+import React from 'react';
+import Cards from 'cards_lean';/* ERROR in ./src/App.js 5:0-31
+Module not found: Error: Can't resolve 'cards_lean' in 'C:\Users\PC\Desktop\import_cards_desde_npm\src' */
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      
     </div>
   );
 }
