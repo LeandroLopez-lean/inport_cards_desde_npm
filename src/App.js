@@ -1,12 +1,13 @@
 import React from 'react';
-import Cards from 'cards_lean';/* ERROR in ./src/App.js 5:0-31
-Module not found: Error: Can't resolve 'cards_lean' in 'C:\Users\PC\Desktop\import_cards_desde_npm\src' */
+import Cards from 'cards_leandro';
 import './App.css';
 
 function App() {
+  const 
+
   return (
     <div className='App'>
-      
+      <Cards data={cardsData} />
     </div>
   );
 }
